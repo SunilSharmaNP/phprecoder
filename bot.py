@@ -9,7 +9,7 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # 👉 Yahan owner/admin ID daalo
-OWNER_IDS = [123456789, 987654321]  # apni Telegram IDs
+OWNER_IDS = [8347137417, 2032446867]  # apni Telegram IDs
 
 bot = Client("ProStreamer", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
