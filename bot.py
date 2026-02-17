@@ -3,10 +3,10 @@ import asyncio
 import time
 from pyrogram import Client, filters
 
-# --- Setup ---
-API_ID = os.getenv("API_ID")
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+# ---------------- CONFIG (ENV) ----------------
+API_ID = int(os.getenv("API_ID", "0"))
+API_HASH = os.getenv("API_HASH", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 # 👉 Yahan owner/admin ID daalo
 OWNER_IDS = [8347137417, 2032446867]  # apni Telegram IDs
